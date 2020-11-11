@@ -2,6 +2,5 @@ image:
   file: .gitpod.dockerfile
     
 tasks:
-  - init: pwsh
-    command: Find-Module -Name SimplySql | Install-Module -Force
+  - init: Find-Module -Name SimplySql | Install-Module -Force
     command: Import-Module SimplySql -Force
