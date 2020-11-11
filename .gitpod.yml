@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.dockerfile
+  
+tasks:
+  - init: pwsh
+    command: 'echo "TODO: Replace with command to start project"'
