@@ -1,2 +1,1 @@
-FROM gitpod/workspace-mysql
-
+FROM mcr.microsoft.com/powershell
