@@ -1,6 +1,2 @@
 image:
   file: .gitpod.dockerfile
-    
-tasks:
-  - init: Find-Module -Name SimplySql | Install-Module -Force
-    command: Import-Module SimplySql -Force
