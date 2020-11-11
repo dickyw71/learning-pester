@@ -19,6 +19,5 @@ github:
     addLabel: prebuilt-in-gitpod
     
 tasks:
-  - init: brew install powershell/tap/powershell
-    command: pwsh
+  - init: pwsh
 
