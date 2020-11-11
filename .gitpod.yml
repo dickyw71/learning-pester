@@ -20,4 +20,5 @@ github:
     
 tasks:
   - init: pwsh
-
+    command: Find-Module -Name SimplySql | Install-Module -Force
+    command: Import-Module SimplySql -Force
